@@ -48,6 +48,16 @@ body {
   }
 
   .glavni {
+    width: 90%;
     height: 150px;
+  }
+
+  .ura {
+    font-size: 40px;
+    padding-top: 25px;
+  }
+
+  .naziv {
+    left: 40%;
   }
 }
