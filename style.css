@@ -54,10 +54,16 @@ body {
 
   .ura {
     font-size: 40px;
-    padding-top: 25px;
+    padding-top: 30px;
   }
 
   .naziv {
     left: 40%;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .glavni {
+    margin: 50px auto;
   }
 }
