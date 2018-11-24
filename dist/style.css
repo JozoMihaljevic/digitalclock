@@ -41,3 +41,23 @@ body {
   padding-top: 20px;
   font-family: 'Orbitron';
 }
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-size: 100vh;
+  }
+
+  .glavni {
+    width: 90%;
+    height: 150px;
+  }
+
+  .ura {
+    font-size: 40px;
+    padding-top: 25px;
+  }
+
+  .naziv {
+    left: 40%;
+  }
+}
