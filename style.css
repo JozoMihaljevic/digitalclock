@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./img/pozadina.jpg");
+  background-size: cover;
+}
+
+.glavni {
+  background-color: rgb(78, 74, 69);
+  width: 400px;
+  height: 150px;
+  margin: 150px auto;
+  position: relative;
+  padding: 20px;
+}
+
+.naziv {
+  background-color: blueviolet;
+  width: 60px;
+  position: absolute;
+  top: -15px;
+  left: 170px;
+  padding: 5px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.ura {
+  background-color: aqua;
+  text-align: center;
+  font-size: 60px;
+  height: 100%;
+  padding-top: 20px;
+  font-family: 'Orbitron';
+}
